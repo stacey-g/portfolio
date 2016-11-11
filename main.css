@@ -1,0 +1,26 @@
+html {-moz-text-size-adjust:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+body {font:14px sans-serif; min-width:320px; color:#000; max-width:1366px;}
+header {background-color:#000; color:#fff; padding:.75em;}
+.content {margin:0 2%;}
+
+/*colors*/
+.orange-c {color:#ff9900;}
+.orange-bc {background-color:#ff9900;}
+.purple-c {color:#a339c6;}
+.purple-bc {background-color:#a339c6;}
+.goldenrod-c {color:#ffcc00;}
+.goldenrod-bc {background-color:#ffcc00;}
+.wheat {color:#f9e9b8;}
+
+/*homepage*/
+.intro {display:inline-flex; padding:2.5em;}
+.intro img {width:600px;}
+.intro p {font-size:2.1em;}
+.intro p:before {content:'\0201c'; font-size:6em;}
+.intro p:after {content:'\0201d'; font-size:6em;}
+
+@media (max-width:1024px) {}
+@media (max-width:768px) {
+.content {margin:0 1%;}
+}
+@media (max-width:500px) {}
